@@ -1,0 +1,33 @@
+package JavaPrograms;
+
+public class Practise {
+
+	public static void main(String[] args) {
+		
+		isarm(153);
+		
+	}
+	
+	public static void isarm(int num) {
+		
+		int cube = 0;
+		int t;
+		int r;
+		
+		t = num ;
+		
+		while (num > 0) {
+			
+			r = num % 10;
+			num = num /10;
+			cube = cube +(r*r*r);
+		}
+		if (t==cube) {
+			System.out.println("is armstro");
+		} else {
+            System.out.println("Not arm");
+		}
+		
+	}
+
+}

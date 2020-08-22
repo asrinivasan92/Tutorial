@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="Learn difference between:"/>
+		<list key="findhistory">
+			<item value="Learn difference between:"/>
+			<item value=" Learn difference between:"/>
+			<item value="int len = a.length();"/>
+		</list>
+	</section>
+</section>

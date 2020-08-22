@@ -1,0 +1,15 @@
+package JavaPrograms;
+
+public class Practise {
+
+	public static void main(String[] args) {
+		
+		System.out.println(isfact(5));
+		
+	}
+	
+	public static boolean isfact(int num) {
+		
+		
+
+}

@@ -1,0 +1,10 @@
+package JavaPrograms;
+
+public class Practise {
+
+	public static void main(String[] args) {
+		
+		int a[] = {900,20,30,40,50,9};
+		
+	}
+}

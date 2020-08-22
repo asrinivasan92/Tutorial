@@ -1,0 +1,16 @@
+package JavaPrograms;
+
+public class Practise {
+
+	public static void main(String[] args) {
+		
+		System.out.println(isarm(153));
+		
+	}
+	
+	public static void isarm(int num) {
+		
+		
+	}
+
+}

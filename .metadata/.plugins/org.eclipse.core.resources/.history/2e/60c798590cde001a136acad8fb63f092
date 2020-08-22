@@ -1,0 +1,22 @@
+package JavaPrograms;
+
+public class Practise {
+
+	public static void main(String[] args) {
+		
+		System.out.println(isfact(5));
+		
+	}
+	
+	public static void isfact(int num) {
+		
+		int fact = 1;
+		for (int i = 1; i <=num; i++) {
+			
+			fact = fact * i;
+		}
+		
+		System.out.println(fact);
+	}
+
+}
