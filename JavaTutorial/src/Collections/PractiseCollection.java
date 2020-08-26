@@ -1,41 +1,44 @@
 package Collections;
-
+import java.util.Set;
+import java.util.Map.Entry;
+import java.util.Map;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Set;
-import java.util.Map;
-import java.util.Map.Entry;
 
 public class PractiseCollection {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		isduplicate(" He is a developer and a coder java java");
+		  
+          isduplicate("He is a developer and a coder java java");
 	}
 	
 	public static void isduplicate(String InputString) {
 		
-		String words[] = InputString.split(" ");
+		String word[] = InputString.split(" ");
 		
 		//Map
-		HashMap<String,Integer> wordcount = new HashMap<String,Integer>();
-		for (String word : words) {
-			if (wordcount.containsKey(word)) {
+		
+		Map<String,Integer> store = new HashMap<String,Integer>();
+		
+		for (String name : word) {
+			
+			if (store.containsKey(name)) {
 				
-				wordcount.put(word, wordcount.get(word)+1);
-				
-			} else {
-				
-				wordcount.put(word, 1);
+				store.put(name, store.get(name)+1);
 			}
+			else {
+				store.put(name, 1);
+			}
+				
 		}
 		
-		Set<String> word1 = wordcount.keySet();
-		for (String word2 : word1) {
-			if (wordcount.get(word2)>1) {
-				System.out.println(word2 +":"+ wordcount.get(word2));
+    	//Print all 
+		  Set<String> name2 = store.keySet();
+		  for (String name3 : name2) {
+			if (store.get(name3)>1) {
+				System.out.println(name3 +" Duplicate is " + store.get(name3));
 			}
 		}
 	}
-
 }
