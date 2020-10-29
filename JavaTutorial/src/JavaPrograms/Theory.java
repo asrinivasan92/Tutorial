@@ -26,4 +26,12 @@ public class Theory {
 	//Cant override static method but can over load - method hiding
 	
 	//Strings are immutable and final
+	
+	// Encapsulation if it is declared a private it cant be accessed in the class which extends it 
+	// Can be accessed in own class and Hiding data implementation.
+	//Make the data variable private and methos as pubic to achieve Encapsulation
+	
+	//Headleass - chrome option class can be passed to webdriver
+	
+	// 100 Test cases - club test cases which are similar 	
 }

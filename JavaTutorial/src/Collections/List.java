@@ -13,6 +13,7 @@ public class List {
 				// array list , linked list and vector class implements List Interface
 				// array has fixed size int a[] = new int[3];
 				// array list is dynamic , can access an insert in any features 
+		        // Virtual capacity is 10 and physical Capacity = 1 
 				
 				ArrayList<String> a = new ArrayList<String>();
 				a.add("naveen");
