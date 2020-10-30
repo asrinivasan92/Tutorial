@@ -1,0 +1,37 @@
+ Git Hub command : 
+ 
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin https://github.com/asrinivasan92/Devops-CI-CD.git
+  git push -u origin main
+  git pull
+  git switchout 
+  
+  Jenkins :
+  
+  Navigate to Jar file path
+  java -jar jenkins.war --httpPort=8080
+  jenkins Initialized 
+  signup 
+  Create a new job 
+  Give local path -Workspac directory
+  Build path cmd - mvn test -Dbrowser=chrome 0r $broswer
+  Parameter in jenkins browser type : chrome , IE , firefox 
+  Go to configure = check this project is parametarised 
+  build with parameter 
+  
+  CI-CD :
+  
+  Application server - To Host the website - Tomcat apache server
+  Hosted server - A virtual machine
+  mvn clean install - create a war file - target folder and plce in Web app Apachce
+  Run Apache 
+  jenkins - above
+  Build triggers git hub and deploy the code to Apache server 
+  
+  
+  
+		
+		

@@ -1,0 +1,128 @@
+<!-- java :
+  
+   Founded : James Gosling 1991 - Green Talk to OAK
+   
+   OOps - Any program supports class ,Object, Inhertance , Iterface , polymorphism and removes all unreferenced object and Portable language
+   
+   compilation - In Compilation - Checks Rules , Syntax and converts .java file to .class file 
+   
+   Interpretation - Read and Execute .class file and it gives output in binary form 
+   Inside it we have 
+   jdk - Lib files to create a software 
+   jre - Environment to run any program - To run Java Program
+   jvm - Be of it execution takes place but not exist physically
+   jit - Resposible for . class file to binary number given to OS and gives Output
+   
+   Identifier - Name given to any program 
+   key word - class ,public ,static , Which are static 
+   liters - string a = "Ashok"
+   char - 'A'	
+   To Run Javac -filename - class file will create and java file name output comes
+   
+   Class :
+   Blueprint to create an object 
+   Object :
+   Which has its own state and behaviour 
+   
+   Variable :
+   What type of data type it stores in Containers 
+   Data Types :
+   int float long double boolean 
+   
+   Local variable inside main method 
+   Global variable in class level and you can make it Static and Non static 
+   initialized and declared in single line or initialize and declare in main method
+   Final variable - we cant change it it will be same	
+   
+   Methods :
+   Main method will get executed 
+   Syntax - Access Specifier /Access modifier / Return type / Name (arug)
+   AS - public private Protected package/default 
+   AM - static 
+   return - Void if no return type /Is string return is string 
+   string[]args - can pass arguments during Interpretation 
+   
+   Static method - can be called with the method name 
+   Non static method - create Object ref var and call the method 
+   Static variable - can be directly ptinted or executed 
+   Non static variable - can call with object 
+   
+   Constructor :
+   
+   Its a special type similar to a maethod
+   Constructor will never have areturn type 
+   NOn static and same as class name 
+   parameterized and no parameterised ( wit different arguments)
+   Once create and object default constuctor is created 
+   
+   this() : 
+   No two or more this calling statement in the constructor 
+   only in constructor mainly in constructor overloading
+   with this() single object creation  can call all the constructor 
+   
+   Method Overloading : 
+   Having same method name with different parameter 
+   
+   Method Overriding :
+   
+   common in parent and child  and it will call child class first 
+   
+   Polymorphism :
+   
+   child class object referred by parent class reference variable is dynamic polymorphism
+   
+   Inheritance :
+   Through Extends from one class to another ( Is A Relationship )
+   Single Level - parent class - child class can create an object and use parent class methods
+   Static methods and variables cannot be inherited 
+   MultiLevel -  child extends parent extends super parent
+   Hirerachial Level - Parent - Two child class one child extend parent and other child extend child
+   Hybrid - Mixing of all.
+   
+   Super():
+   calls from sub class constructor to immediate super class constructor , if it is with parameter it calls that super constructor 
+   used only in Inheritance 
+   can have either this() or super()
+   with parameter 
+   without parameter if u write super() it or not it calls the super class constructor 
+   
+   if-else :if - else if - else if - else if - else 
+   
+   Thrad.sleep : To wait and its Static 
+   Must implement runnable Interface 
+   Thread.run : Object of thread class - No Extra Thread will be created 
+   Thread.start :  Object of thread class and it will run the method 
+   
+   Garbage collector : Execution start from main and has so many thread 
+   where obj will be created in Heap memory and No one using thats are eligble for garbage 
+   
+   Hashmap :
+   Key and value format stores 
+   Once u put in stores the value according to hashcode from key  an index it will be stored
+   null will be stored in zero index only one node
+   Multiple node will be converted to binary tree after in jdk 1.8
+   
+   final : constant value 
+   finally block :Execute at last 
+   finalize : object not referring garbage collector  clean up 
+   
+  JRE 
+  Heap :
+  Heap memory : young generation(Minor GC) and Old generation (Major C)
+  New object are created in it 
+  when eden full shift to survival memory 1 and 2 and minor gc garbage collector is called 
+  Old generation  - major gc take when full and takes longer time 
+  
+  Stack :
+  size is less compared to Heap
+  used to execute Thread 
+  static , local variables in stack 
+  method specific values 
+  object reference variable is stored
+  
+  Permanent generation : 
+  Meta data of class methods 
+  Not a part of Heap
+  class structure , static variables , constants 
+   
+    -->
